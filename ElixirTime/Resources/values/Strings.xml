@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">ElixirTime</string>
+  <string name="ApplicationName">ElixirTime</string>
+  <string name="calculateButton">Oblicz</string>
+  <string name="from">Bank nadawcy</string>
+  <string name="to">Bank odbiorcy</string>
+  <string name="changeSendTime">Zmień czas nadania</string>
+  <string name="sendTimeText">Godzina nadania: {0}</string>
+  <string name="recalculate">Oblicz ponownie</string>
+  <string name="sessionTime">Twój przelew powinien dojść: {0}</string>
+  <string name="alternative">lub IBAN</string>
+  <string name="bankInvalidTitle">Bank nie rozpoznany</string>
+  <string name="bankInvalidMessage">Spróbuj wybrać z listy dostępnych banków.</string>
 </resources>

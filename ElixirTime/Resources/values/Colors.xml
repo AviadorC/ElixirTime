@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <item name="white" type="color">#FFFFFF</item>
+  <item name="red" type="color">#FF0000</item>
+  <item name="colorPrimary" type="color">#A4D3CD</item>
+  <item name="colorPrimaryDark" type="color">#303F9F</item>
+  <item name="colorAccent" type="color">#4CAF50</item>
+  <item name="lightPrimary" type="color">#C5CAE9</item>
+  <item name="primaryText" type="color">#212121</item>
+  <item name="secondaryText" type="color">#727272</item>
+  <item name="divider" type="color">#B6B6B6</item>
+  <item name="iconText" type="color">#FFFFFF</item>
+</resources>

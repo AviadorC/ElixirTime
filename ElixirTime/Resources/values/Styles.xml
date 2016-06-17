@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="ElixirTime.Base" parent="Theme.AppCompat.Light.NoActionBar">
+  </style>
+
+  <style name="ElixirTime" parent="ElixirTime.Base">
+  </style>
+
+  <style name="ElixirTime.Splash" parent ="Theme.AppCompat.Light">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+</resources>
