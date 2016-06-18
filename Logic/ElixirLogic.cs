@@ -44,7 +44,7 @@ namespace ElixirTime.Logic
 
             if (source.Identifier == target.Identifier)
             {
-                return DateTime.Now;
+                return sendTime;
             }
 
             var model = new TransferModel()
