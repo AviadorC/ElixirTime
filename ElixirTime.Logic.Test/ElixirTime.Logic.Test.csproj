@@ -54,11 +54,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logic\ElixirTime.Logic.csproj">
+    <ProjectReference Include="..\ElixirTime.Logic\ElixirTime.Logic.csproj">
       <Project>{9CACB033-6EEC-4DF5-AF4B-D96F95086FCB}</Project>
       <Name>ElixirTime.Logic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Service\ElixirTime.Service.csproj">
+    <ProjectReference Include="..\ElixirTime.Service\ElixirTime.Service.csproj">
       <Project>{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}</Project>
       <Name>ElixirTime.Service</Name>
     </ProjectReference>

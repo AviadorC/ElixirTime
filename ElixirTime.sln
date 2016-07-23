@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Android", "ElixirTime\ElixirTime.Android.csproj", "{A82D5E60-DF77-43F3-8CDE-027F647BD3F1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Logic", "Logic\ElixirTime.Logic.csproj", "{9CACB033-6EEC-4DF5-AF4B-D96F95086FCB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Service", "Service\ElixirTime.Service.csproj", "{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Logic.Test", "ExlixirTime.Logic.Test\ElixirTime.Logic.Test.csproj", "{57A78D7F-704E-4E29-8707-DBDE6E4D49F8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Data", "ElixirTime.Data\ElixirTime.Data.csproj", "{B925603B-0270-4C91-B3C2-FB71273CF7C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Service.Test", "ElixirServiceTestProject\ElixirTime.Service.Test.csproj", "{F2720611-835C-4672-B058-2C7A72E5AAB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Service.Test", "ElixirTime.Service.Test\ElixirTime.Service.Test.csproj", "{F2720611-835C-4672-B058-2C7A72E5AAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Service", "ElixirTime.Service\ElixirTime.Service.csproj", "{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Droid", "ElixirTime.Droid\ElixirTime.Droid.csproj", "{A82D5E60-DF77-43F3-8CDE-027F647BD3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Logic", "ElixirTime.Logic\ElixirTime.Logic.csproj", "{9CACB033-6EEC-4DF5-AF4B-D96F95086FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElixirTime.Logic.Test", "ElixirTime.Logic.Test\ElixirTime.Logic.Test.csproj", "{57A78D7F-704E-4E29-8707-DBDE6E4D49F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A82D5E60-DF77-43F3-8CDE-027F647BD3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A82D5E60-DF77-43F3-8CDE-027F647BD3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A82D5E60-DF77-43F3-8CDE-027F647BD3F1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -31,22 +43,10 @@ Global
 		{9CACB033-6EEC-4DF5-AF4B-D96F95086FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CACB033-6EEC-4DF5-AF4B-D96F95086FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CACB033-6EEC-4DF5-AF4B-D96F95086FCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{57A78D7F-704E-4E29-8707-DBDE6E4D49F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57A78D7F-704E-4E29-8707-DBDE6E4D49F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A78D7F-704E-4E29-8707-DBDE6E4D49F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A78D7F-704E-4E29-8707-DBDE6E4D49F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B925603B-0270-4C91-B3C2-FB71273CF7C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2720611-835C-4672-B058-2C7A72E5AAB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

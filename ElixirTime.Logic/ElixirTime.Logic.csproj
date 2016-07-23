@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <ProjectReference Include="..\Service\ElixirTime.Service.csproj">
+    <ProjectReference Include="..\ElixirTime.Service\ElixirTime.Service.csproj">
       <Project>{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}</Project>
       <Name>ElixirTime.Service</Name>
     </ProjectReference>

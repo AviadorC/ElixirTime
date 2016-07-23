@@ -54,7 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Service\ElixirTime.Service.csproj">
+    <ProjectReference Include="..\ElixirTime.Service\ElixirTime.Service.csproj">
       <Project>{42d13adc-1fe0-4caf-b5c0-a0ff44b33ed6}</Project>
       <Name>ElixirTime.Service</Name>
     </ProjectReference>

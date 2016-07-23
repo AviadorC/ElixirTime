@@ -35,12 +35,12 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <ProjectReference Include="..\Logic\ElixirTime.Logic.csproj">
+    <ProjectReference Include="..\ElixirTime.Logic\ElixirTime.Logic.csproj">
       <Project>{9cacb033-6eec-4df5-af4b-d96f95086fcb}</Project>
       <Name>ElixirTime.Logic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Service\ElixirTime.Service.csproj">
-      <Project>{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}</Project>
+    <ProjectReference Include="..\ElixirTime.Service\ElixirTime.Service.csproj">
+      <Project>{42d13adc-1fe0-4caf-b5c0-a0ff44b33ed6}</Project>
       <Name>ElixirTime.Service</Name>
     </ProjectReference>
   </ItemGroup>

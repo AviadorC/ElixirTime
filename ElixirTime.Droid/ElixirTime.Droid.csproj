@@ -124,7 +124,7 @@
       <Project>{B925603B-0270-4C91-B3C2-FB71273CF7C1}</Project>
       <Name>ElixirTime.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Service\ElixirTime.Service.csproj">
+    <ProjectReference Include="..\ElixirTime.Service\ElixirTime.Service.csproj">
       <Project>{42D13ADC-1FE0-4CAF-B5C0-A0FF44B33ED6}</Project>
       <Name>ElixirTime.Service</Name>
     </ProjectReference>

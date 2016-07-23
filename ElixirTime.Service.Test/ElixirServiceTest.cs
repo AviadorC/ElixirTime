@@ -20,8 +20,8 @@ namespace ElixirTime.Service.Test
         public void GetElixirTime_ShouldGet()
         {
             TransferModel model = new TransferModel {
-                SenderBank = "249",
-                TargetBank = "666",
+                SenderBank = "254",
+                TargetBank = "191",
                 SendTime = new DateTime(2016, 06, 17, 13, 0, 0)
             };
 
